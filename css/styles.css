@@ -1,0 +1,51 @@
+html{
+	font-size: 62.5%  /* 62.5% == 10px*/;
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+body{
+	font-size: 1.6rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838;
+}
+/* estilos generales */
+.quiz{
+    width: 35rem;
+    padding: 4rem;
+    background-color: #066163;
+    text-align: center;
+    border-radius: 5px;
+    color: #F2F2F2;
+}
+.quiz h1{
+    font-size: 3.5rem;
+}
+.quiz h2{
+    font-size: 2.6rem;
+}
+.quiz hr{
+    color: #F2F2F2;
+}
+.btn{
+    width: 20rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+    background-color: #CDBE78;
+    color: #F2F2F2;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #e8d88a;
+    cursor: pointer;
+    color: #6a6a6a;
+}
+.progress{
+    font-size: 2rem;
+}
